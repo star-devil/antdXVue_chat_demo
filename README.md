@@ -18,7 +18,7 @@
 
 ## 运行
 
-`npm dev`
+`pnpm dev`
 
 ## 说明
 
