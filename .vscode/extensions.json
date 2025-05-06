@@ -1,0 +1,20 @@
+{
+  "recommendations": [
+    "aaron-bond.better-comments",
+    "ant-design-vue.vscode-ant-design-vue-helper",
+    "bradlc.vscode-tailwindcss",
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "esbenp.prettier-vscode",
+    "tombonnike.vscode-status-bar-format-toggle",
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-complete-tag",
+    "formulahendry.auto-rename-tag",
+    "ms-ceintl.vscode-language-pack-zh-hans",
+    "pranaygp.vscode-css-peek",
+    "prvest.vs-code-prettier-eslint",
+    "stylelint.vscode-stylelint",
+    "sdras.vue-vscode-snippets",
+    "vue.volar"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "git.autofetch": true,
+  "npm.packageManager": "pnpm",
+  // 编辑器配置
+  "editor.fontSize": 18,
+  "editor.fontWeight": "normal",
+  "editor.tabSize": 2,
+  "editor.wordWrapColumn": 100,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.formatOnPaste": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "never",
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.stylelint": "explicit"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.inlineSuggest.enabled": true,
+
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode" // 无论默认格式化器是什么，都使用 prettier
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  },
+
+  //防止VSCode启动带有node_modules的项目的时候很卡的问题
+  "search.followSymlinks": false,
+
+  // prettier扩展配置
+  "prettier.bracketSameLine": true,
+  "prettier.vueIndentScriptAndStyle": true,
+  "prettier.jsxSingleQuote": false,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "none",
+  "prettier.insertPragma": false,
+  "prettier.requirePragma": false,
+
+  // eslint配置
+  "eslint.useFlatConfig": true,
+  "eslint.enable": true,
+  "eslint.run": "onType",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "vue",
+    "html",
+    "json",
+    "markdown"
+  ],
+  "eslint.codeAction.showDocumentation": {
+    "enable": false
+  },
+
+  // stylelint配置
+  // 取消系统默认的检查
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "stylelint.ignoreDisables": true,
+  "stylelint.validate": ["css", "scss", "less", "sass", "vue", "html"]
+}
