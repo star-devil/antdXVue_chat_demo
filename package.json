@@ -17,10 +17,6 @@
   },
   "dependencies": {
     "@ant-design/icons-vue": "^7.0.1",
-    "@heimdallr-sdk/browser": "^0.0.38",
-    "@heimdallr-sdk/record": "^0.0.9",
-    "@heimdallr-sdk/vite-plugin-sourcemap-upload": "^0.0.6",
-    "@heimdallr-sdk/vue": "^0.0.25",
     "@kangc/v-md-editor": "^2.3.18",
     "ant-design-vue": "~4.2.6",
     "ant-design-x-vue": "^1.1.2",
