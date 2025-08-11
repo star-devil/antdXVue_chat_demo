@@ -1,3 +1,4 @@
 node_modules
 heimdallr_client/**
 heimdallr_server/**
+*dist*
