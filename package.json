@@ -17,6 +17,10 @@
   },
   "dependencies": {
     "@ant-design/icons-vue": "^7.0.1",
+    "@heimdallr-sdk/browser": "^0.0.38",
+    "@heimdallr-sdk/record": "^0.0.9",
+    "@heimdallr-sdk/vite-plugin-sourcemap-upload": "^0.0.6",
+    "@heimdallr-sdk/vue": "^0.0.25",
     "@kangc/v-md-editor": "^2.3.18",
     "ant-design-vue": "~4.2.6",
     "ant-design-x-vue": "^1.1.2",
@@ -57,7 +61,7 @@
     "unplugin-vue-components": "^0.27.5",
     "vite": "^5.4.10",
     "vite-plugin-eslint2": "^5.0.2",
-    "vite-plugin-imagemin": "^0.6.1",
+    "vite-plugin-minipic": "^1.3.2",
     "vite-svg-loader": "^5.1.0",
     "vue-tsc": "^2.1.8"
   },
@@ -97,6 +101,5 @@
     "*.md": [
       "prettier --write"
     ]
-  },
-  "packageManager": "pnpm@10.10.0+sha512.b2dc20e2fc72b3e18848459b37359a32064663e5627a51e4c74b2c29dd8e8e0491483c3abb40789cfd578bf362fb6ba8261b05f0387d76792ed6e23ea3b1b6a0"
+  }
 }

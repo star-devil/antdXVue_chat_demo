@@ -14,6 +14,9 @@ export default function (env: Record<string, string>, mode: string) {
         entryFileNames: 'assets/js/[name]-[hash].js',
         assetFileNames: 'assets/[ext]/[name]-[hash].[ext]'
       }
+    },
+    commonjsOptions: {
+      transformMixedEsModules: true
     }
   };
   return build;

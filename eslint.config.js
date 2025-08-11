@@ -51,7 +51,8 @@ export default [
       '@typescript-eslint/no-explicit-any': 'off', // 允许使用any类型
       '@typescript-eslint/no-unused-expressions': 'off', // 允许未使用的表达式
       '@typescript-eslint/no-async-promise-executor': 'off', // 允许使用async-promise-executor
-      '@typescript-eslint/no-namespace': 'off' // 允许使用自定义 TypeScript 模块和命名空间。
+      '@typescript-eslint/no-namespace': 'off', // 允许使用自定义 TypeScript 模块和命名空间。
+      '@typescript-eslint/ban-ts-comment': 'off' // 允许使用 @ts-xxx 的注释
     }
   },
 
